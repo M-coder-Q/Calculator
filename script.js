@@ -11,6 +11,7 @@ function clearDisplay(){
 }
 
 function calculate(){
+    console.log(display.value); 
     try{
         display.value = eval(display.value);
     }
