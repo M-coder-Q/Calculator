@@ -38,7 +38,9 @@ body {
         font-size: 3rem;
         font-weight: bold;
         cursor: pointer;
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
       button:hover {
         background-color: hsl(0, 0%, 50%)
